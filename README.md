@@ -1,49 +1,36 @@
-# Web App per la Gestione della Contabilità in Partita Doppia
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Benvenuti nel repository del nostro progetto di sviluppo di una web app per la gestione della contabilità generale in partita doppia. Questo progetto è pensato per supportare docenti e studenti nel mondo della formazione, fornendo uno strumento didattico pratico e funzionale.
+## Getting Started
 
-## Descrizione del Progetto
+First, run the development server:
 
-L'applicazione è progettata per rendere l'insegnamento e l'apprendimento della contabilità in partita doppia più accessibile e interattivo. Gli utenti possono creare, modificare e visualizzare le registrazioni contabili, generare report e analizzare i dati in tempo reale. Le funzionalità principali includono:
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-- Creazione e gestione di registrazioni contabili
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- Visualizzazione dei bilanci
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-- Generazione di report finanziari
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-- Analisi dei dati contabili
+## Learn More
 
-- Interfaccia user-friendly e intuitiva
+To learn more about Next.js, take a look at the following resources:
 
-## Collaborazioni Ben Accette
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Siamo entusiasti di accogliere collaboratori che desiderano contribuire a migliorare, testare e implementare nuove funzionalità nell'applicazione. Che tu sia uno sviluppatore, un insegnante, uno studente o un appassionato di contabilità, il tuo contributo è prezioso per noi. Ecco alcune delle aree in cui puoi contribuire:
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-- **Sviluppo**: Aggiunta di nuove funzionalità, ottimizzazione del codice esistente, risoluzione di bug.
+## Deploy on Vercel
 
-- **Testing**: Test dell'applicazione su diverse piattaforme e dispositivi, segnalazione di eventuali problemi.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-- **Documentazione**: Miglioramento della documentazione del progetto, creazione di guide e tutorial.
-
-- **Feedback**: Condivisione di idee, suggerimenti e feedback per migliorare l'usabilità e l'efficacia dell'applicazione.
-
-## Come Contribuire
-
-Per contribuire al progetto, segui questi passaggi:
-
-1. Effettua un fork del repository.
-
-2. Crea un branch per la tua feature o correzione (`git checkout -b nome-feature`).
-
-3. Fai un commit delle tue modifiche (`git commit -m 'Aggiunge una nuova feature'`).
-
-4. Pusha il branch (`git push origin nome-feature`).
-
-5. Apri una pull request.
-
-## Contatti
-
-Per qualsiasi domanda, suggerimento o collaborazione, non esitare a contattarci. Siamo qui per ascoltarti e lavorare insieme per migliorare questo strumento didattico.
-
-Grazie per il tuo interesse e il tuo supporto!
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
