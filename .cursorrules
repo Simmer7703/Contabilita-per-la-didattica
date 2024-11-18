@@ -5,3 +5,5 @@ io non sono un programmatore pertanto spiegami cosa fare passo passo
 eseguiamo i comandi uno per uno e poi ne discutiamo i risultati e corrgiamo eventuali errori
 il programma che stiamo sviluppando è un sistema di contabilità in partita doppia da usare con i miei studenti per delle esercitazioni
 non è importante che il programma sia bellissimo, è importante che funzioni
+
+Every time you write code: Indicate the location where the file should be placed; also, write the entire files, not just the changes.

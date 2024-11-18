@@ -37,27 +37,27 @@ export default function AdminPage() {
   if (session?.user?.role !== "TEACHER") {
     return (
       <div className="p-8">
-        <p className="text-red-500">Non hai i permessi per accedere a questa pagina</p>
+        <p className="text-destructive">Non hai i permessi per accedere a questa pagina</p>
       </div>
     )
   }
 
   return (
-    <div className="p-8">
-      <h1 className="text-3xl font-bold mb-8">Area Amministratore</h1>
+    <div className="p-8 gradient-background min-h-screen">
+      <h1 className="text-3xl font-bold mb-8 text-foreground">Area Amministratore</h1>
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {adminCards.map((card) => (
           <Link 
             key={card.href}
             href={card.href}
-            className="block p-6 bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-50 transition-colors"
+            className="group block p-6 bg-gradient-to-br from-gray to-yellow-90 dark:from-gray-800 dark:to-gray-900 rounded-[20px] border border-border/50 shadow-lg hover:shadow-xl transition-all duration-200"
           >
             <div className="flex items-center mb-4">
-              <span className="text-3xl mr-3">{card.icon}</span>
-              <h2 className="text-xl font-semibold">{card.title}</h2>
+              <span className="text-3xl mr-3 group-hover:scale-110 transition-transform duration-200">{card.icon}</span>
+              <h2 className="text-xl font-semibold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">{card.title}</h2>
             </div>
-            <p className="text-gray-600">{card.description}</p>
+            <p className="text-muted-foreground">{card.description}</p>
           </Link>
         ))}
       </div>

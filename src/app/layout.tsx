@@ -23,17 +23,17 @@ export default function RootLayout({
     <html lang="it" suppressHydrationWarning>
       <body className={dmSans.className}>
         <Providers>
-          <div className="min-h-screen flex flex-col bg-[#f8f5f2] dark:bg-gray-800 transition-colors">
+          <div className="min-h-screen flex flex-col bg-background transition-colors">
             <div className="fixed top-0 left-0 right-0 z-50">
               <Navbar />
             </div>
 
             <div className="flex pt-16">
-              <div className="fixed left-0 top-16 bottom-0 bg-white dark:bg-gray-800 transition-colors">
+              <div className="fixed left-0 top-16 bottom-0 bg-card transition-colors">
                 <Sidebar />
               </div>
 
-              <main className="flex-1 ml-64 p-8 min-h-[calc(100vh-4rem)] dark:bg-gray-800 transition-colors">
+              <main className="flex-1 ml-64 p-8 min-h-[calc(100vh-4rem)] bg-background transition-colors">
                 {children}
               </main>
             </div>

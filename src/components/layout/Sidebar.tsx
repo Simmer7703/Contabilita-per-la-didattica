@@ -21,21 +21,21 @@ export default function Sidebar() {
   ]
 
   return (
-    <aside className="w-64 bg-white dark:bg-gray-800 min-h-screen p-6 transition-colors">
+    <aside className="w-64 gradient-sidebar min-h-screen p-6 transition-colors">
       <nav className="space-y-2">
         {menuItems.map((item) => (
           <Link
-            key={item.href}
-            href={item.href}
-            className={`flex items-center gap-3 px-4 py-3 rounded-lg transition-all ${
-              pathname === item.href
-                ? "bg-[#f8f5f2] dark:bg-gray-700 text-[#d84727] dark:text-[#ff5a3d] font-medium text-base"
-                : "text-gray-900 dark:text-gray-100 hover:bg-[#f8f5f2] dark:hover:bg-gray-700 hover:text-[#d84727] dark:hover:text-[#ff5a3d] text-base font-medium"
-            }`}
-          >
-            <span className="text-xl">{item.icon}</span>
-            <span>{item.label}</span>
-          </Link>
+          key={item.href}
+          href={item.href}
+          className={`flex items-center gap-3 px-4 py-3 rounded-lg transition-all ${
+            pathname === item.href
+              ? "bg-primary/10 text-accent font-semibold text-lg"
+              : "text-accent hover:bg-primary/5 hover:text-primary text-lg font-medium"
+          }`}
+        >
+          <span className="text-2xl">{item.icon}</span>
+          <span>{item.label}</span>
+        </Link>
         ))}
       </nav>
     </aside>

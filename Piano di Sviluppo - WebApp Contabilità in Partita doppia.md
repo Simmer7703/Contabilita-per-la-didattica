@@ -25,7 +25,7 @@ Fase 3: Autenticazione e Autorizzazione
 [X] Implementazione sistema di login
 [X] Gestione ruoli (docente/studente)
 [X] Protezione delle rotte
-[ ] Pagina di registrazione (solo su invito del docente)
+[X] Pagina di registrazione (solo su invito del docente)
 Fase 4: Sviluppo Componenti Core
 [ ] Layout principale dell'applicazione
 [ ] Navbar e sistema di navigazione
